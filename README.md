@@ -83,3 +83,23 @@ Typically, **petal length and width** turn out to be the most influential featur
    * View the feature importance plot
 4. Try modifying the model parameters, such as number of trees or train-test split ratio, to experiment and improve performance.
 
+output
+
+Accuracy Score: 1.0
+
+Confusion Matrix:
+[[10  0  0]
+ [ 0 10  0]
+ [ 0  0 10]]
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        10
+           1       1.00      1.00      1.00        10
+           2       1.00      1.00      1.00        10
+
+    accuracy                           1.00        30
+   macro avg       1.00      1.00      1.00        30
+weighted avg       1.00      1.00      1.00        30
+
+
